@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		</head>
+	<body class="no-sidebar">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<div id="header-wrapper">
+					<header id="header" class="container">
+
+						<!-- Logo -->
+							<div id="logo">
+								<h4><a href="index.html">Disaster Analytics</a></h4>
+								<h2>Threat Perception Following Mass Violence Events</h2>
+							</div>
+
+						<!-- Nav -->
+							<nav id="nav">
+								<ul>
+									<li {% if page.url == "/" %}class="current"{% endif %}><a href="/">About</a></li>
+									<li {% if page.url == "/team.html" %}class="current"{% endif %}><a href="/team.html">Team</a></li>
+									<li {% if page.url == "/pub.html" %}class="current"{% endif %}><a href="/pub.html">Resource</a></li>
+								</ul>
+							</nav>
+
+					</header>
+				</div>
+
+			<!-- Main -->
+				<div id="main-wrapper">
+					<div class="container">
+						<div id="content">
+							<!-- Content -->
+							{{ content }}
+						</div>
+					</div>
+				</div>
+
+			<!-- Footer -->
+				<div id="footer-wrapper">
+					<footer id="footer" class="container">
+
+						<div class="row">
+									<!-- <section class="widget contact"> -->
+									<div style="display: block; float: center;">
+										<h3>Contact Us</h3>
+										<ul class="style2">
+											<li>Project contact: Dr. <a href="http://www.yurulin.com">Yu-Ru Lin</a> | Email: yuruliny (at) gmail.com</li>
+											<li><a href="http://www.yurulin.com/lab.html">CSO Lab</a> @ University of Pittsburgh</li>
+											<li>135 North Bellefield Ave., Pittsburgh, PA 15260</li>
+										</ul>			
+									</div>	
+							
+							<div class="12u">
+								<div id="copyright">
+									<ul class="menu">
+										<li>&copy; 2016 Threat Perception Following Mass Violence Events. All rights reserved</li><li>Theme design powered by <a href="http://html5up.net">HTML5 UP</a> / <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+
+			</div>
+
+		<!-- Scripts -->
+
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+			
+	</html>
